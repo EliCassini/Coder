@@ -1,14 +1,55 @@
-h1 {
-    color:rgb(26, 103, 247);
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,27,121,1) 43%, rgba(0,255,247,0.7460026246826856) 100%);
+}
+.escudo {
+    position: absolute;
+    top: 0px;
+    left: 88%;
+    margin: 10px 5px;
+    display:inline-block;
+    width: 80px;
+    border: 2px solid black;
+}
+.logo {
+    color:rgb(0, 0, 0);
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    display:inline-block;
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    margin: 0px;    
 }
 #tituloSecundario {
-    color:cornflowerblue;
+    color:rgb(0, 0, 0);
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    display:inline-block;
+    position: absolute;
+    top:65px;
+    left: 64%;
+    margin-top: 0px;
 }
 .titulos {
     color:darkblue;
 }
-#nav li a {
-    color:darkblue;
+#nav li {
+    color:rgb(247, 247, 247);
+    border-bottom: none;
+    display:inline-block; 
+    padding: 5px 30px;   
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+#nav li:hover{
+    background-color: rgb(22, 32, 34);
+
+}
+a{
+    color:rgb(247, 247, 247);
+    text-decoration:none;
 }
 .baja {
     color:red;
@@ -16,3 +57,4 @@ h1 {
 .color-blue {
     color:blue;
 }
+
