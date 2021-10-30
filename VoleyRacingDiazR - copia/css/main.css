@@ -1,34 +1,33 @@
 .escudo {
-/*   position: absolute;
+  position: absolute;
   top: 0px;
-  left: 88%;
+  left: 88%;  
+  display: inline-block; 
   margin: 10px 5px;
-  display: inline-block; */
   width: 80px;
   border: 2px solid black;
-  grid-area: escudo;
 }
 .logo {
   color: rgb(0, 0, 0);
   font-family: "Righteous", cursive;
   font-size: 60px;
-  grid-area: titulo;
-  /* display: inline-block;
+  margin:2px;
+  display: inline-block;
   position: absolute;
   top: 0px;
   left: 60%;
-  margin: 0px; */
+  margin: 0px; 
 }
 #tituloSecundario {
   color: rgb(0, 0, 0);
   font-family: "Righteous", cursive;
   font-size: 40px;
-  
-  /* display: inline-block;
+  margin:2px;
+  display: inline-block;
   position: absolute;
   top: 65px;
   left: 64%;
-  margin-top: 0px; */
+  margin-top: 0px; 
 }
 .titulos {
   color: rgb(255, 255, 255);
@@ -62,40 +61,38 @@ a {
   color: blue;
 }
 .instagram {
-  width: 30px;
-  grid-area: redes;
-  /* display: inline-block; */
-  /* position: absolute;
+  width: 30px;  
+  display: inline-block;
+  position: absolute;
   top: 115px;
   left: 73%;
-  margin-top: 0px; */
+  margin-top: 0px;
 }
 .twitter {
-  width: 30px;
-  grid-area: redes;
-  /* display: inline-block; */
- /*  position: absolute;
+  width: 30px;  
+  display: inline-block;
+  position: absolute;
   top: 115px;
   left: 76%;
-  margin-top: 0px; */
+  margin-top: 0px;
 }
 .facebook {
   width: 30px;
-  grid-area: redes;
-  /* display: inline-block; */
- /*  position: absolute;
+
+  display: inline-block;
+  position: absolute;
   top: 115px;
   left: 79%;
-  margin-top: 0px; */
+  margin-top: 0px;
 }
 .whatsapp {
   width: 30px;
-  grid-area: redes;
-  /* display: inline-block; */
-  /* position: absolute;
+
+  display: inline-block;
+  position: absolute;
   top: 115px;
   left: 82%;
-  margin-top: 0px; */
+  margin-top: 0px;
 }
 p,
 h2 {
@@ -118,21 +115,24 @@ header {
   height: 150px;
   width: 100%;
   margin: 0px;
+  
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  position: fixed;
+  
+ 
   
   
- /*  position: fixed;
+ /*  ;
   top: 0px; */
   z-index: 1;
 }
 /* #nav {
   margin: 0px;
 }
-main {
+ */
+ main , .sidebar {
   margin-top: 200px;
-} */
+}
 .plantel {
   width: 900px;
  /*  margin-left: 220px; */
@@ -156,8 +156,8 @@ main {
 }
 table {
   text-align: center;
-  /* margin-left: 85px;
-  padding: 20px; */
+  margin-left: 85px;
+  padding: 20px; 
 }
 td,
 th {
@@ -171,13 +171,14 @@ th {
   padding: 5px;
   margin-left: 20px;
   border: 2px solid black;
-/*   position: relative;
-  top: 60px; */
+  position: relative;
+  top: 60px;
 }
-/* video {
-  /* position: relative;
+video {
+  position: relative;
   left: 200px;
-  bottom: 60px; */
+  bottom: 60px;
+}
 
 footer {
   background: rgb(0, 0, 4);
@@ -198,15 +199,16 @@ footer {
 }
 
 /*=========*/
-/* 
+ 
 body {
   margin: 0px;
   background-color: rgba(179, 229, 245, 0.719);
   background: center/100% url("../public/img/fondo3.jpg") no-repeat fixed;
-} */
+} 
 .grid-container{  
   padding: 5px 0;
   border: 5px solid rgb(253, 217, 9);
+
   display: grid;
   grid-template-areas: 
   'header header header'
@@ -215,19 +217,17 @@ body {
   'footer footer footer'
   ;
   }
-.grid-container div {
 
-  padding: auto;
-  border: solid 1px blue;
-}
 .header {
   grid-area: header;
+   
 }
 .main {
   grid-area: main;
 }
 .sidebar {
   grid-area: sidebar;
+  align-items: center;
 }
 .footer {
   grid-area: footer;
@@ -236,17 +236,10 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-between;
-  padding: 10px;
-  
+  margin:5px;
 }
-.grid-contenedor{
-  display: grid;
-  grid-template-areas: 
-  'titulo titulo escudo escudo'
-  'tituloSecundario tituloSecundario escudo escudo'
-  'redes redes redes redes'  
-  ;
-}
+
+
+
 
 
