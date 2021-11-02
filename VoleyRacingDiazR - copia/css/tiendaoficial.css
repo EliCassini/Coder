@@ -183,14 +183,13 @@ h3 {
   background-color: rgba(0, 0, 0, 0.829);
   padding: 20px;
 }
-h2 {
+
+.indumentaria {
+  margin-left: 60px;
   font-family: "Playfair Display", serif;
   font-size: 50px;
   font-weight: bold;
   text-decoration: underline;
-}
-.indumentaria {
-  margin-left: 60px;
 }
 footer {
   background: rgb(0, 0, 4);
